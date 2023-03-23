@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="open"><div class="layer"></div></div>
+    <header>
+        <a href="#banner" class="logo"><span>C</span>haithra</a>
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#work" onclick="toggleMenu()">My Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="bannerText">
+            <h3>Hello There&#128075,&nbsp; I'm</h3>
+            <h2>Chaithra R</h2>
+            <p>I am an aspiring Front-End Developer with a passion for creating Clean, 
+                Beautiful, Interactive, Minimalisic, Responsive and User-Friendly UI.
+            </p>
+            <a href="Chaithra_R_Resume.pdf" target="_blank">Download my CV</a>
+        </div>
+        <div class="box">
+            <b></b>
+            <img src="profile2.png" alt="profile">
+            <div class="content">
+                <ul class="sci">
+                    <li><a href="https://www.linkedin.com/in/chaithra-r-ba050a222/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/chaithraramesh31/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext"><span>A</span>bout Me</h2>
+                <p>Hi, I'm Chaithra, an aspiring Front-End Developer with a passion for 
+                    creating engaging and user-friendly web experiences.<br><br>My portfolio showcases a range of 
+                    front-end development projects. Each project demonstrates my skills in creating
+                    responsive layouts, implementing animations and interactions, and using front-end frameworks 
+                    to build robust and scalable applications.<br><br>I believe that great web experiences start
+                    with a deep understanding of the user's needs and 
+                    the goals of the project. I strive to create clean, efficient, and maintainable code that is 
+                    both functional and aesthetically pleasing. I believe in working collaboratively with my 
+                    clients and team members to ensure that the final product exceeds expectations and delivers 
+                    value to the end-user.I also believe in continuous learning and improvement, and am always 
+                    seeking new challenges and opportunities to grow as a developer.</p>
+            </div>
+            <div class="col50">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="time">
+                                <h4>Jul 2022 - Present</h4>
+                            </div>
+                            <div class="content">
+                                <h3>Software Developer<br><span>@Profinch Solutions Pvt.Ltd</span></h3>
+                                <p>HTML - CSS - JavaScript - SQL - PL/SQL - RAD Tool - WinSCP</p>
+                            </div>                            
+                        </li>
+                        <li>
+                            <div class="time">
+                                <h4>Nov 2020 - Apr 2022</h4>
+                            </div>
+                            <div class="content">
+                                <h3>Engineer<br><span>@Servion Global Solutions Ltd</span></h3>
+                                <p>CUCM - UCCX - ServiceNow Ticketing Tool</p>
+                            </div>                           
+                        </li>
+                        <li>
+                            <div class="time">
+                                <h4>2015 - 2019</h4>
+                            </div>
+                            <div class="content">
+                                <h3>Engineering<br><span>@Global Academy of Technology</span></h3>
+                                <p>Electronics and Communication Engg</p>
+                            </div>                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="titletext txt"><span>S</span>kills</h2>
+        <dic class="container">
+            <div class="icon">
+                <div class="imgBx active" style="--i:1;" data-id="content1"><img src="java.png" alt="java"></div>
+                <div class="imgBx" style="--i:2;" data-id="content2"><img src="sql.jpg" alt="java"></div>
+                <div class="imgBx" style="--i:3;" data-id="content3"><img src="mysql.png" alt="java"></div>
+                <div class="imgBx" style="--i:4;" data-id="content4"><img src="html.png" alt="java"></div>
+                <div class="imgBx" style="--i:5;" data-id="content5"><img src="css.png" alt="java"></div>
+                <div class="imgBx" style="--i:6;" data-id="content6"><img src="js.png" alt="java"></div>
+                <div class="imgBx" style="--i:7;" data-id="content7"><img src="react.png" alt="java"></div>
+                <div class="imgBx" style="--i:8;" data-id="content8"><img src="bootstrap.png" alt="java"></div>
+            </div>
+            <div class="content">
+                <div class="contentBx active" id="content1">
+                    <div class="card">
+                        <div class="imgBx"><img src="java.png" alt="java"></div>
+                        <div class="textBx">
+                            <h2>JAVA<br><span>Since 2022</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentBx" id="content2">
+                    <div class="card">
+                        <div class="imgBx"><img src="sql.jpg" alt="java"></div>
+                        <div class="textBx">
+                            <h2>SQL<br><span>Since 2022</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentBx" id="content3">
+                    <div class="card">
+                        <div class="imgBx"><img src="mysql.png" alt="java"></div>
+                        <div class="textBx">
+                            <h2>MySQL<br><span>Since 2022</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentBx" id="content4">
+                    <div class="card">
+                        <div class="imgBx"><img src="html.png" alt="java"></div>
+                        <div class="textBx">
+                            <h2>HTML<br><span>Since 2022</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentBx" id="content5">
+                    <div class="card">
+                        <div class="imgBx"><img src="css.png" alt="java"></div>
+                        <div class="textBx">
+                            <h2>CSS<br><span>Since 2022</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentBx" id="content6">
+                    <div class="card">
+                        <div class="imgBx"><img src="js.png" alt="java"></div>
+                        <div class="textBx">
+                            <h2>JavaScript<br><span>Since 2022</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentBx" id="content7">
+                    <div class="card">
+                        <div class="imgBx"><img src="react.png" alt="java"></div>
+                        <div class="textBx">
+                            <h2>React Js<br><span>Since 2022</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentBx" id="content8">
+                    <div class="card">
+                        <div class="imgBx"><img src="bootstrap.png" alt="java"></div>
+                        <div class="textBx">
+                            <h2>Bootstrap<br><span>Since 2022</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </dic>
+    </section>
+
+    <section class="work" id="work">
+        <h2 class="titletext"><span>M</span>y Works</h2>
+        <div class="container">
+            <div class="card">
+                <div class="imgBox"><img src="photography.png" alt="photography"></div>
+                <div class="details">
+                    <h2>Sample Photography Website</h2>
+                    <p>This project is a photography website template that is designed to showcase the best 
+                        works of a photographer. <br>The template is designed to be clean, modern, and easy to 
+                        navigate, providing a great user experience for visitors to the portfolio.
+                        The layout is designed to be simple and intuitive, with a focus on the photographs.
+                    </p>
+                    <a href="https://static-photography-template.netlify.app/" target="_blank">Project Live</a>
+                    <ul>
+                        <li>HTML</li>
+                        <li>|</li>
+                        <li>CSS</li>
+                        <li>|</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBox"><img src="portfolio.png" alt="portfolio"></div>
+                <div class="details">
+                    <h2>Sample Portfolio</h2>
+                    <p>This project is an individual portfolio template to showcase an individual's skills, 
+                        achievements, and experiences. <br>The portfolio template serves as a digital 
+                        representation of an individual's professional identity and can be used to showcase 
+                        their work to potential employers, clients, or collaborators.
+                    </p>
+                    <a href="https://responsive-portfoliotemplate.netlify.app/" target="_blank">Project Live</a>
+                    <ul>
+                        <li>HTML</li>
+                        <li>|</li>
+                        <li>CSS</li>
+                        <li>|</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBox"><img src="music.png" alt="music"></div>
+                <div class="details">
+                    <h2>Tunix - Audio Streaming Website</h2>
+                    <p>This project is a desktop compatible(only) audio streaming website that retrieves the 
+                        matching songs from the Spotify API, along 
+                        with details such as song name, artist name, album name, song length, release date, 
+                        and album artwork. Once the user selects a song, the website plays a preview of the song,
+                        typically around 30 seconds in length.
+                    </p>
+                    <a href="https://tunix-web-player.netlify.app" target="_blank">Project Live</a>
+                    <ul>
+                        <li>ReactJS</li>
+                        <li>|</li>
+                        <li>CSS</li>
+                        <li>|</li>
+                        <li>Spotify API</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form action="" id="contactForm">
+                <div class="row100">
+                    <dic class="col">
+                        <div class="inputBox">
+                            <input type="text" name="fn" required id="fn">
+                            <span class="text">First Name</span>
+                            <span class="line"></span>
+                        </div>
+                    </dic>
+                    <dic class="col">
+                        <div class="inputBox">
+                            <input type="text" name="ln" required id="ln">
+                            <span class="text">Last Name</span>
+                            <span class="line"></span>
+                        </div>
+                    </dic>
+                </div>
+                <div class="row100">
+                    <dic class="col">
+                        <div class="inputBox">
+                            <input type="text" name="email" required id="email">
+                            <span class="text">Email</span>
+                            <span class="line"></span>
+                        </div>
+                    </dic>
+                    <dic class="col">
+                        <div class="inputBox">
+                            <input type="text" name="mobile" required id="mobile">
+                            <span class="text">Mobile</span>
+                            <span class="line"></span>
+                        </div>
+                    </dic>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea name="msg" required id="msg"></textarea>
+                            <span class="text">Type Your Message Here...</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <p class="status" id="status"></p>
+                <div class="row100">
+                    <div class="col">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/8a97487388.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>
