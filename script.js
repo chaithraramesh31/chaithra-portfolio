@@ -78,7 +78,7 @@ const contactForm = document.getElementById('contactForm'),
 const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.service_id,process.env.template_id,'#contactForm',process.env.public_key)
+    emailjs.sendForm(import.meta.env.service_id,import.meta.env.template_id,'#contactForm',import.meta.env.public_key)
     .then(() => {
         statusMsg.textContent = 'Message Sent';
 
