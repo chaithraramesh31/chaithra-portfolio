@@ -63,6 +63,10 @@ setInterval(handleMouseover, 2000);
 
 //handling contact form
 
+console.log(process.env.service_id);
+console.log(process.env.template_id);
+console.log(process.env.public_key);
+
 const contactForm = document.getElementById('contactForm'),
     fn = document.getElementById('fn'),
     ln = document.getElementById('ln'),
