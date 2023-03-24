@@ -63,10 +63,6 @@ setInterval(handleMouseover, 2000);
 
 //handling contact form
 
-console.log(process.env.service_id);
-console.log(process.env.template_id);
-console.log(process.env.public_key);
-
 const contactForm = document.getElementById('contactForm'),
     fn = document.getElementById('fn'),
     ln = document.getElementById('ln'),
@@ -78,7 +74,7 @@ const contactForm = document.getElementById('contactForm'),
 const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(import.meta.env.service_id,import.meta.env.template_id,'#contactForm',import.meta.env.public_key)
+    emailjs.sendForm('service_zeczuwf','template_ccxr8me','#contactForm','WkV3NdWKxCbSNdRPI')
     .then(() => {
         statusMsg.textContent = 'Message Sent';
 
