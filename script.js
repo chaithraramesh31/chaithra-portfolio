@@ -74,7 +74,7 @@ const contactForm = document.getElementById('contactForm'),
 const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_zeczuwf','template_ccxr8me','#contactForm','WkV3NdWKxCbSNdRPI')
+    emailjs.sendForm('Your service_id','Your template_id','#contactForm','Your public_key')
     .then(() => {
         statusMsg.textContent = 'Message Sent';
 
